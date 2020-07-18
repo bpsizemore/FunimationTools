@@ -14,8 +14,11 @@ You will need to paste this value into the script when it asks for it.
 ### XSRF Token
 Your xsrf token will be returned in the body of a page from funimation while you are logged in.
 First log in to funimation in your browser, then one of the following:
+
 Right click + view-source -> ctrl+f to search -> search for `csrfmiddlewaretoken`
+
 Open dev tools -> ctrl+f to search -> search for `csrfmiddlewaretoken`
+
 ![Getting your XSRF token.](images/get_xsrf_token.png)
 You will also need to paste this value into the script when it asks for it.
 
